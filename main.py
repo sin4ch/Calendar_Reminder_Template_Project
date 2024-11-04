@@ -18,5 +18,3 @@ Just realised I'll need to add date select too
 
 task_type = ""
 event_name = input("Name of Event")
-
-j 
