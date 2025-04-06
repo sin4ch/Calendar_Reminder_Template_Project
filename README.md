@@ -36,11 +36,15 @@ This application addresses a common need for consistent reminder patterns when c
 ## **Installation**
 
 1. Clone the repository:  
-2. git clone https://github.com/yourusername/Calendar\_Reminder\_Template\_Project.git  
-3. cd Calendar\_Reminder\_Template\_Project  
-4. Install the required packages:  
-5. pip install \-r requirements.txt  
-6. Set up Google Calendar API:  
+   ```
+   git clone https://github.com/yourusername/Calendar\_Reminder\_Template\_Project.git
+   cd Calendar\_Reminder\_Template\_Project
+   ```
+2. Install the required packages:  
+   ```
+   pip install \-r requirements.txt  
+   ```
+3. Set up Google Calendar API:  
    * Go to the Google Cloud Console  
    * Create a new project  
    * Enable the Google Calendar API  
@@ -50,11 +54,13 @@ This application addresses a common need for consistent reminder patterns when c
 ## **Usage**
 
 1. Run the application:  
-2. python main.py  
-3. On first run:  
+   ```
+   python main.py  
+   ```
+4. On first run:  
    * The app will open a browser window asking you to authorize access to your Google Calendar  
    * After authorization, the token will be saved for future use  
-4. Creating an event:  
+5. Creating an event:  
    * Enter the event name  
    * Select the date  
    * Choose the time and duration  
@@ -63,10 +69,10 @@ This application addresses a common need for consistent reminder patterns when c
 
 ## **Dependencies**
 
-* google-api-python-client: Google API client library  
-* google-auth-httplib2: HTTP client for Google Auth  
-* google-auth-oauthlib: OAuth support for Google Auth  
-* tkcalendar: Calendar widget for tkinter
+* `google-api-python-client`: Google API client library  
+* `google-auth-httplib2`: HTTP client for Google Auth  
+* `google-auth-oauthlib`: OAuth support for Google Auth  
+* `tkcalendar`: Calendar widget for tkinter
 
 ## **License**
 
